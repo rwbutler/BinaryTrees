@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1395D4F02318564700279DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395D4EF2318564700279DBE /* main.m */; };
+		1395D4FE2318565300279DBE /* RecursiveBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395D4F62318565300279DBE /* RecursiveBinaryTree.m */; };
+		1395D4FF2318565300279DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395D4F82318565300279DBE /* main.m */; };
+		1395D5002318565300279DBE /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395D4FB2318565300279DBE /* Node.m */; };
+		1395D5012318565300279DBE /* IterativeBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1395D4FD2318565300279DBE /* IterativeBinaryTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,14 @@
 
 /* Begin PBXFileReference section */
 		1395D4EC2318564700279DBE /* BinaryTrees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTrees; sourceTree = BUILT_PRODUCTS_DIR; };
-		1395D4EF2318564700279DBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1395D4F62318565300279DBE /* RecursiveBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecursiveBinaryTree.m; sourceTree = "<group>"; };
+		1395D4F72318565300279DBE /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		1395D4F82318565300279DBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../../../../../../../Volumes/NO NAME/Desktop/New11/New11/main.m"; sourceTree = "<group>"; };
+		1395D4F92318565300279DBE /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		1395D4FA2318565300279DBE /* RecursiveBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecursiveBinaryTree.h; sourceTree = "<group>"; };
+		1395D4FB2318565300279DBE /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		1395D4FC2318565300279DBE /* IterativeBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IterativeBinaryTree.h; sourceTree = "<group>"; };
+		1395D4FD2318565300279DBE /* IterativeBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IterativeBinaryTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,14 @@
 		1395D4EE2318564700279DBE /* BinaryTrees */ = {
 			isa = PBXGroup;
 			children = (
-				1395D4EF2318564700279DBE /* main.m */,
+				1395D4F72318565300279DBE /* BinaryTree.h */,
+				1395D4FC2318565300279DBE /* IterativeBinaryTree.h */,
+				1395D4FD2318565300279DBE /* IterativeBinaryTree.m */,
+				1395D4F82318565300279DBE /* main.m */,
+				1395D4F92318565300279DBE /* Node.h */,
+				1395D4FB2318565300279DBE /* Node.m */,
+				1395D4FA2318565300279DBE /* RecursiveBinaryTree.h */,
+				1395D4F62318565300279DBE /* RecursiveBinaryTree.m */,
 			);
 			path = BinaryTrees;
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1395D4F02318564700279DBE /* main.m in Sources */,
+				1395D4FF2318565300279DBE /* main.m in Sources */,
+				1395D5012318565300279DBE /* IterativeBinaryTree.m in Sources */,
+				1395D4FE2318565300279DBE /* RecursiveBinaryTree.m in Sources */,
+				1395D5002318565300279DBE /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
