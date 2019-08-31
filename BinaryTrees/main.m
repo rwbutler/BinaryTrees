@@ -13,7 +13,6 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
         Node *rootNode = [[Node alloc] initWithValue: @"A"];
         Node *nodeB = [[Node alloc] initWithValue: @"B"];
         Node *nodeC = [[Node alloc] initWithValue: @"C"];
@@ -28,9 +27,7 @@ int main(int argc, const char * argv[]) {
         nodeC.lhs = nodeF;
         nodeC.rhs = nodeG;
         
-        
         id<BinaryTree> tree = [[RecursiveBinaryTree alloc] initWithRootNode:rootNode];
-        NSLog(@"%ld", (long)[tree longestBranchLength]);
         [tree print];
         [tree reverse];
         [tree print];

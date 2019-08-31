@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface IterativeBinaryTree : NSObject <BinaryTree>
 
 -(instancetype)initWithRootNode:(Node *)node;
--(NSInteger)longestBranchLength;
 -(void)print;
 -(void)reverse;
 

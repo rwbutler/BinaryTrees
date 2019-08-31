@@ -9,9 +9,9 @@
 
 @interface Node : NSObject
 
-@property(nonatomic, strong) Node *lhs;
-@property(nonatomic, strong) Node *rhs;
+@property(nullable, nonatomic, strong) Node *lhs;
+@property(nullable, nonatomic, strong) Node *rhs;
 
-- (instancetype)initWithValue:(NSString *)value;
+- (nonnull instancetype)initWithValue:(nonnull NSString *)value;
 
 @end
